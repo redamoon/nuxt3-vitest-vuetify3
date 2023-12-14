@@ -1,6 +1,6 @@
 // import { defineEmits } from 'vue'
 
-export const useClickEmit = (emit): { onClick: () => void } => {
+export const useClickEmit = (emit: (v: string) => void) => {
   // 親にイベントを伝える関数
   // Composable で defineEmitsを使うと、依存関係になってしまうので単体テストしづらくなる。
   // emitを引数で受け取れるようにするとよいかも
