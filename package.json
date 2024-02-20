@@ -13,8 +13,8 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@vue/test-utils": "^2.4.3",
-    "happy-dom": "^12.10.3",
-    "nuxt": "^3.8.2",
+    "happy-dom": "^13.3.8",
+    "nuxt": "^3.10.1",
     "unplugin-auto-import": "^0.17.2",
     "unplugin-vue-components": "^0.26.0",
     "vitest": "^1.0.4",
@@ -24,7 +24,7 @@
   "dependencies": {
     "@mdi/font": "^7.3.67",
     "sass": "^1.69.5",
-    "vite-plugin-vuetify": "^1.0.2",
-    "vuetify": "^3.4.6"
+    "vite-plugin-vuetify": "^2.0.1",
+    "vuetify": "^3.5.3"
   }
 }

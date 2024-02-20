@@ -1,7 +1,9 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
-  <div>
-    <v-btn>
-     Button
-    </v-btn>
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
